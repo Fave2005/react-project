@@ -1,0 +1,38 @@
+.introduction {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 5px;
+}
+
+@media (max-width: 450px) {
+  .introduction {
+    width: 95%;
+    color: black;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.photo {
+  width: 150px;
+  border-radius: 5px;
+  margin: 2em;
+  margin-top: 5em;
+  /* margin-left: 40px; */
+}
+
+.content {
+  font-weight: bold;
+  font-size: 1.2rem;
+  max-width: 75%;
+  float: left;
+}
